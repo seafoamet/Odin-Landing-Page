@@ -116,7 +116,7 @@ button {
     font-size: 16px;
 }
 
-.section2 > h1 {
+.section2 h1 {
     color: #1f2937;
     font-weight: 900;
     font-size: 32px;
@@ -148,4 +148,40 @@ button {
     align-self: flex-end;
     font-weight: bold;
     font-size: 24px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionwrapper {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    padding: 25px 100px;
+    margin: 100px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.actionwrapper h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.actionwrapper button {
+    border: 1px solid white;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
