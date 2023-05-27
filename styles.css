@@ -121,3 +121,31 @@ button {
     font-weight: 900;
     font-size: 32px;
 }
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 350px;
+    margin-top: 48px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quotewrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
